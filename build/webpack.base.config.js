@@ -7,9 +7,9 @@ module.exports = {
   },
   devServer: {
     open: true, // 自动打开浏览器
-    // compress: true, // 启动gzip压缩
+    compress: true, // 启动gzip压缩
     port: 3000, // 端口号
-    // quiet: true,
+    quiet: true,
     hot: true,
   },
   resolve: {
